@@ -8,10 +8,12 @@ html{
 }
 .container {
    display: flex;
+   flex-direction: row;
         justify-content: center;
         align-items: center;
   }
     .centered-image { display: flex;
+      flex-direction: row;
         justify-content: center;
         align-items: center;
         width: 50%; /* Example width */
@@ -40,8 +42,8 @@ body{
 
 /* Animation */
 .anim-typewriter{
-  animation: typewriter 4s steps(44) 1s 1 normal both,
-             blinkTextCursor 500ms steps(44) infinite normal;
+  animation: typewriter 4s steps(15) 1s 1 normal both,
+             blinkTextCursor 500ms steps(15) infinite normal;
 }
 @keyframes typewriter{
   from{width: 0;}
@@ -76,6 +78,8 @@ body{
   50% { border-color: orange }
 }
 </style>
+
+
 <div class= "container">
 <div class="typewriter">
   <h1>Website under development</h1>
