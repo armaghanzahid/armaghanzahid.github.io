@@ -1,10 +1,4 @@
 <style>
-body {
-  background: #333;
-  padding-top: 5em;
-  display: flex;
-  justify-content: center;
-}
 @import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
 
 /* Global */
@@ -12,6 +6,18 @@ html{
   min-height: 100%;
   overflow: hidden;
 }
+.container {
+   display: flex;
+        justify-content: center;
+        align-items: center;
+  }
+    .centered-image { display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%; /* Example width */
+        height: 50%; /* Example height */
+      }
+    
 body{
   height: calc(100vh - 8em);
   padding: 4em;
@@ -70,10 +76,15 @@ body{
   50% { border-color: orange }
 }
 </style>
+<div class= "container">
 <div class="typewriter">
   <h1>Website under development</h1>
 </div>
+  <div class="centered-image">
+      <img src="ibm.jpg" alt="Animation">
+</div>
 <div>
 <p class="line-1 anim-typewriter">Armaghan Zahid</p>
+</div>
 </div>
 
