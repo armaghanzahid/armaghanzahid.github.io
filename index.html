@@ -6,9 +6,11 @@
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 <link rel="manifest" href="/site.webmanifest">
 </head>
+
 <style>
 @import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
-/* Global /
+
+/* Global */
 html{
   min-height: 100%;
   overflow: hidden;
@@ -23,10 +25,10 @@ html{
       flex-direction: row;
         justify-content: center;
         align-items: center;
-        width: 50%; / Example width /
-        height: 50%; / Example height */
+        width: 50%; /* Example width */
+        height: 50%; /* Example height */
       }
-
+    
 body{
   height: calc(100vh - 8em);
   padding: 4em;
@@ -47,7 +49,8 @@ body{
     overflow: hidden;
     transform: translateY(-50%);    
 }
-/* Animation /
+
+/* Animation */
 .anim-typewriter{
   animation:typing 3.5s steps(15, end),
     blink-caret .5s step-end infinite;
@@ -63,26 +66,30 @@ body{
 .typewriter h1 {
   color: #fff;
   font-family: monospace;
-  overflow: hidden; / Ensures the content is not revealed until the animation /
-  border-right: .15em solid orange; / The typwriter cursor /
-  white-space: nowrap; / Keeps the content on a single line /
-  margin: 0 auto; / Gives that scrolling effect as the typing happens /
-  letter-spacing: .15em; / Adjust as needed /
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
   animation: 
     typing 3.5s steps(15, end),
     blink-caret .5s step-end infinite;
 }
-/ The typing effect /
+
+/* The typing effect */
 @keyframes typing {
   from { width: 0 }
   to { width: 100% }
 }
-/ The typewriter cursor effect */
+
+/* The typewriter cursor effect */
 @keyframes blink-caret {
   from, to { border-color: transparent }
   50% { border-color: orange }
 }
 </style>
+
+
 <div class= "container">
 <div class="typewriter">
   <h1>Website under development</h1>
